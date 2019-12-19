@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import time
 
-consumerKey = 'wb22Y8wyJ5dQZIqcuQQs3TOMr'
-consumerSecret = 'sefxdoiTHWCrEBwSWE9zCPSb4VqTIwXe95fCTBk6qi2Y34yor3'
-accessToken = '836485825353277440-K6JwZiLRgwtwYlWUIwnykoszckQ08Ps'
-accessSecret = 'WFOFTLkaMPLPQoc160RhBKhleI7YmAFXQ0RJzEcOUSP5j'
+consumerKey = 'PUT_YOUR_DATA_FROM_API_KEY'
+consumerSecret = 'PUT_YOUR_DATA_FROM_API_KEY'
+accessToken = 'PUT_YOUR_DATA_FROM_API_KEY'
+accessSecret = 'PUT_YOUR_DATA_FROM_API_KEY'
 #Emotion Categories: anger, disgust, fear, guilt, interest, joy, sadness, shame and surprise
 
 class listener(StreamListener):
